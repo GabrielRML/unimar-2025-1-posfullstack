@@ -128,7 +128,7 @@ Esta disciplina aborda **Clean Code**, **Design Patterns** e **Qualidade de Soft
 ## Referências
 
 ### Documentação Oficial
-- [Spring Boot Reference Documentation](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)
+- [Spring Boot Reference Documentation](https://docs.spring.io/spring-boot/)
 - [JUnit 5 User Guide](https://junit.org/junit5/docs/current/user-guide/)
 
 ### Literatura Essencial
