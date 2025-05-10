@@ -19,7 +19,7 @@ Esta disciplina aborda **Clean Code**, **Design Patterns** e **Qualidade de Soft
 
 ## Cronograma
 
-### Dia 1 - 10/05/2025 · Fundamentos e Prática
+### Dia 1 - 10/05/2025 · Fundamentos e Prática (projeto `day1-design-patterns`)
 
 **Abertura e Nivelamento**
 - Apresentação e quebra-gelo
@@ -72,7 +72,7 @@ Esta disciplina aborda **Clean Code**, **Design Patterns** e **Qualidade de Soft
 
 ---
 
-### Dia 2 - 24/05/2025 · Implementação Colaborativa
+### Dia 2 - 24/05/2025 · Implementação Colaborativa (projeto `day2-clean-architecture`)
 
 **Recapitulação e Setup**
 - Revisão dos conceitos do Dia 1
