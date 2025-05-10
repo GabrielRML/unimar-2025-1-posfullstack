@@ -33,24 +33,20 @@ Esta disciplina aborda **Clean Code**, **Design Patterns** e **Qualidade de Soft
 
 - Princípios fundamentais de código limpo
 - Demonstração prática: refatoração de código legado
-- **Exercício:** Refatore um trecho de código fornecido aplicando princípios de Clean Code
 
 **Design Patterns Essenciais**
 
 > _"First make it work, then make it right, then make it fast."_  
 > — Kent Beck (Criador do TDD e Extreme Programming)
 
-- **Criacionais** (Singleton, Factory Method)
-  - Demonstração: Implementação de Factory Method
-  - **Exercício:** Implemente o padrão Singleton com Thread-safety
+- **Criacionais** (Singleton, Factory Method etc)
+  - Demonstração: Implementação de Singleton
 
-- **Estruturais** (Adapter, Decorator)
+- **Estruturais** (Adapter, Decorator etc)
   - Demonstração: Implementação de Adapter
-  - **Exercício:** Crie um Decorator para adicionar funcionalidades
 
-- **Comportamentais** (Strategy, Observer)
+- **Comportamentais** (Strategy, Observer etc)
   - Demonstração: Implementação de Strategy
-  - **Exercício:** Implemente o padrão Observer
 
 **TDD e Testes Unitários**
 
@@ -59,7 +55,6 @@ Esta disciplina aborda **Clean Code**, **Design Patterns** e **Qualidade de Soft
 
 - Fundamentos do TDD
 - Demonstração: Ciclo Red-Green-Refactor com JUnit
-- **Exercício:** Escreva testes para as implementações criadas
 
 **Discussão Arquitetural**
 
@@ -69,6 +64,10 @@ Esta disciplina aborda **Clean Code**, **Design Patterns** e **Qualidade de Soft
 - Análise de casos reais
 - Trade-offs e decisões arquiteturais
 - Como Clean Code e padrões resolvem problemas do dia a dia
+
+> [!IMPORTANT]
+> **Trabalho Dia 1:** Explore os conceitos estudados no Dia 1 e implemente um ou padrões de projeto na linguagem e IDE que preferir. Além disso, crie ao menos um teste que garanta a fucnionalidade de sua implementação. 
+> **ENTREGA ATÉ 24/05 VIA FORM: https://forms.gle/jwCC5WB4WXVZWrwv9**
 
 ---
 
