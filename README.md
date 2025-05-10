@@ -2,17 +2,15 @@
 
 ## Sobre o Professor
 
-> [!NOTE]
-> Doutor em Engenharia de Software pelo ICMC-USP, Venilton atua há mais de 15 anos na arquitetura e desenvolvimento de sistemas. Hoje lidera o time de Educação da DIO, conduzindo iniciativas que integram prática de mercado, pesquisa acadêmica e Inteligência Artificial para elevar de forma contínua o padrão de qualidade e confiabilidade das soluções da EdTech.
+Doutor em Engenharia de Software pelo ICMC-USP, Venilton atua há mais de 15 anos na arquitetura e desenvolvimento de sistemas. Hoje lidera o time de Educação da DIO, conduzindo iniciativas que integram prática de mercado, pesquisa acadêmica e Inteligência Artificial para elevar de forma contínua o padrão de qualidade e confiabilidade das soluções da EdTech.
 
 ## Sobre a Disciplina
 
 Esta disciplina aborda **Clean Code**, **Design Patterns** e **Qualidade de Software**, com foco nas melhores práticas utilizadas no mercado. O conteúdo é aplicado na linguagem **Java** e no framework **Spring Boot**, aproximando a teoria da prática real de desenvolvimento.
 
-> [!IMPORTANT]
+> [!NOTE]
 > **Prática Supervisionada e Colaborativa:** Cada conceito será apresentado de forma concisa seguido de implementação prática imediata. Adotaremos programação colaborativa no segundo dia, onde construiremos juntos uma aplicação completa.
-
-> [!TIP]
+>
 > **IA Generativa como Ferramenta de Aprendizado:** Utilizaremos ferramentas de IA de forma consciente durante todo o curso para amplificar o aprendizado, sem substituir o pensamento crítico e compreensão fundamental dos conceitos.
 
 ---
@@ -32,21 +30,21 @@ Esta disciplina aborda **Clean Code**, **Design Patterns** e **Qualidade de Soft
 > — Michael Feathers (Autor de "Working Effectively with Legacy Code")
 
 - Princípios fundamentais de código limpo
-- Demonstração prática: refatoração de código legado
+- Demonstração prática: refatoração de um código legado e "sujo".
 
 **Design Patterns Essenciais**
 
 > _"First make it work, then make it right, then make it fast."_  
 > — Kent Beck (Criador do TDD e Extreme Programming)
 
-- **Criacionais** (Singleton, Factory Method etc)
-  - Demonstração: Implementação de Singleton
+- **Criacionais**
+  - Demonstração: Implementação de um cenário real do uso de Singleton.
 
-- **Estruturais** (Adapter, Decorator etc)
-  - Demonstração: Implementação de Adapter
+- **Estruturais**
+  - Demonstração: Implementação de um cenário real do uso de Adapter
 
-- **Comportamentais** (Strategy, Observer etc)
-  - Demonstração: Implementação de Strategy
+- **Comportamentais**
+  - Demonstração: Implementação de um cenário real do uso de Strategy
 
 **TDD e Testes Unitários**
 
@@ -65,9 +63,13 @@ Esta disciplina aborda **Clean Code**, **Design Patterns** e **Qualidade de Soft
 - Trade-offs e decisões arquiteturais
 - Como Clean Code e padrões resolvem problemas do dia a dia
 
-> [!IMPORTANT]
-> **Trabalho Dia 1:** Explore os conceitos estudados no Dia 1 e implemente um ou padrões de projeto na linguagem e IDE que preferir. Além disso, crie ao menos um teste que garanta a fucnionalidade de sua implementação. 
-> **ENTREGA ATÉ 24/05 VIA FORM: https://forms.gle/jwCC5WB4WXVZWrwv9**
+> [!CAUTION]
+> **Trabalho Dia 1:**
+> Com base nos conceitos estudados sobre **Clean Code**, **Design Patterns** e **Qualidade de Software**, implemente **um ou mais padrões de projeto** na linguagem e IDE de sua preferência.
+> Sua entrega deve incluir **pelo menos um teste automatizado**, validando o comportamento da solução implementada.
+>
+> 📅 **Prazo de entrega:** até **24/05**
+> 📥 **Envio pelo Formulário:** [https://forms.gle/jwCC5WB4WXVZWrwv9](https://forms.gle/jwCC5WB4WXVZWrwv9)
 
 ---
 
@@ -84,9 +86,6 @@ Esta disciplina aborda **Clean Code**, **Design Patterns** e **Qualidade de Soft
 > — Martin Fowler (Autor de "Refactoring" e líder em práticas ágeis)
 
 **Sessão de Programação Colaborativa:**
-
-> [!WARNING]
-> **Modo Colaborativo:** Trabalharemos em pares alternados, onde cada participante terá momentos como "driver" (codifica) e "navigator" (orienta). Utilizaremos ferramentas de compartilhamento de tela e desenvolvimento remoto.
 
 1. **Arquitetura da Aplicação**
    - Aplicação dos princípios SOLID
@@ -113,14 +112,12 @@ Esta disciplina aborda **Clean Code**, **Design Patterns** e **Qualidade de Soft
 > _"Every time you write a comment, you have failed to express yourself in code."_  
 > — Robert C. Martin (Autor de "Clean Code" e "Clean Architecture")
 
-- Facilidades do Spring Boot vs. Clean Code
+- Facilidades do Spring Boot vs. Clean Architecture
 - Identificação de bad practices
 - Uso consciente de frameworks
 
-**Encerramento e Próximos Passos**
-- Reflexão sobre o aprendizado
-- Feedback da disciplina
-- Compartilhamento de recursos para aprendizado contínuo
+> [!CAUTION]
+> **Trabalho Final: TODO**
 
 ---
 
