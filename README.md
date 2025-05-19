@@ -66,9 +66,9 @@ Esta disciplina aborda **Clean Code**, **Design Patterns** e **Qualidade de Soft
 > [!CAUTION]
 > **Trabalho Dia 1:**
 > Com base nos conceitos estudados sobre **Clean Code**, **Design Patterns** e **Qualidade de Software**, implemente **um ou mais padrões de projeto** na linguagem e IDE de sua preferência.
-> Sua entrega deve incluir **pelo menos um teste automatizado**, validando o comportamento da solução implementada.
+> Sua entrega deve incluir **pelo menos um teste unitário**, validando o comportamento da solução implementada.
 >
-> 📅 **Prazo de entrega:** até **24/05**
+> 📅 **Prazo de entrega:** até **25/05**
 > 📥 **Envio pelo Formulário:** [https://forms.gle/jwCC5WB4WXVZWrwv9](https://forms.gle/jwCC5WB4WXVZWrwv9)
 
 ---
