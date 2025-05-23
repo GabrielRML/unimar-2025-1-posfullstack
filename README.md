@@ -1,125 +1,71 @@
 # Clean Code, Design Patterns e Qualidade de Software
 
+Este repositório documenta uma jornada prática por **Clean Code**, **Design Patterns** e **Qualidade de Software**, com implementações reais em Java e Spring Boot. O conteúdo foi desenvolvido para aproximar a teoria da prática real de desenvolvimento. Adicionalmente, utilizamos ferramentas de IA de forma consciente durante todo o curso para amplificar o aprendizado, sem substituir o pensamento crítico e a compreensão fundamental dos conceitos.
+
 ## Sobre o Professor
 
 Doutor em Engenharia de Software pelo ICMC-USP, Venilton atua há mais de 15 anos na arquitetura e desenvolvimento de sistemas. Hoje lidera o time de Educação da DIO, conduzindo iniciativas que integram prática de mercado, pesquisa acadêmica e Inteligência Artificial para elevar de forma contínua o padrão de qualidade e confiabilidade das soluções da EdTech.
 
-## Sobre a Disciplina
+## Estrutura da Disciplina
 
-Esta disciplina aborda **Clean Code**, **Design Patterns** e **Qualidade de Software**, com foco nas melhores práticas utilizadas no mercado. O conteúdo é aplicado na linguagem **Java** e no framework **Spring Boot**, aproximando a teoria da prática real de desenvolvimento.
+### [📅 Dia 1 - Clean Code, Design Patterns e TDD](wiki/dia-1.md)
+- **Clean Code**: Princípios fundamentais com exemplos práticos.
+- **Design Patterns**: Classificados em Criacionais, Estruturais e Comportamentais, vimos Singleton, Adapter e Strategy em ação.
+- **TDD**: Ciclo _Red-Green-Refactor_ com JUnit.
+- **Projeto Prático (pasta `day1-design-patterns`)**: Exercitamos a ideia de _Red-Green-Refactor_ com TDD para implementar nossa `Calculator`, além de implemetar casos reais para Singleton, Adapter e Strategy.
 
-> [!NOTE]
-> **Prática Supervisionada e Colaborativa:** Cada conceito será apresentado de forma concisa seguido de implementação prática imediata. Adotaremos programação colaborativa no segundo dia, onde construiremos juntos uma aplicação completa.
+> [!IMPORTANT]
+> **Trabalho Dia 1:** Com base nos conceitos estudados sobre Clean Code, Design Patterns e Qualidade de Software, implemente um ou mais padrões de projeto na linguagem e IDE de sua preferência.
+> Sua entrega deve incluir pelo menos um teste unitário, validando o comportamento da solução implementada.
+> 
+> **Formulário de Submissão (até 25/05):** [https://forms.gle/jwCC5WB4WXVZWrwv9](https://forms.gle/jwCC5WB4WXVZWrwv9)
+
+### [📅 Dia 2 - Clean Architecture, APIs e LLMs](wiki/dia-2.md)
+- **Clean Architecture**: Aplicada com simplicidade e produtividade
+- **API RESTful**: Tutor IA com Spring Boot
+- **Integração**: OpenAI e Anthropic com troca dinâmica
+- **Projeto Prático (pasta `day2-clean-architecture`)**: API REST para criação de um Tutor IA com foco nos conceitos aprendidos nesta disciplina.
+
+> [!IMPORTANT]
+> **Trabalho Final:**
+> Com base na API que desenvolvemos, implemente um projeto completo na linguagem e IDE de sua preferência. Sua entrega deve incluir a implementação de uma solução a sua escolha seguindo os principais conceitos apresentados nesta disciplina: Clean Code, Design Patterns, Qualidade de Software, Clean Architecture, APIs e LLMs. O domínio e escopo do projeto fica a sua escolha, seja criativo(a)!
 >
-> **IA Generativa como Ferramenta de Aprendizado:** Utilizaremos ferramentas de IA de forma consciente durante todo o curso para amplificar o aprendizado, sem substituir o pensamento crítico e compreensão fundamental dos conceitos.
+> **Formulário de Submissão (até 07/06):** TOFO
 
----
+## Como Usar Este Repositório
 
-## Cronograma
+```bash
+# Clone o repositório
+git clone https://github.com/falvojr-classes/unimar-2025-1-posfullstack
 
-### Dia 1 - 10/05/2025 · Fundamentos e Prática (projeto `day1-design-patterns`)
+# Navegue pelos projetos
+cd day1-design-patterns     # Projeto do Dia 1 - Clean Code, Design Patterns e TDD
+cd day2-clean-architecture  # Projeto do Dia 2 - Clean Architecture, APIs e LLMs
+```
 
-**Abertura e Nivelamento**
-- Apresentação e quebra-gelo
-- Alinhamento de objetivos e conhecimento prévio
-- Introdução à dinâmica do curso
+## Aprendizados Principais
 
-**Conhecendo a Ideia de Clean Code**
+1. **Simplicidade é Sofisticação** - Clean code não é sobre complexidade, é sobre clareza e simplicidade!
+2. **Padrões com Propósito** - Use design patterns para resolver problemas reais!
+3. **Teste Primeiro, Código Depois** - TDD melhora o design naturalmente!
+4. **Arquitetura Evolutiva** - Clean Architecture sem _overengineering_!
+
+### Citações Para Refletir
 
 > _"Clean code always looks like it was written by someone who cares."_  
 > — Michael Feathers (Autor de "Working Effectively with Legacy Code")
 
-- Princípios fundamentais de código limpo
-- Demonstração prática: refatoração de um código legado e "sujo".
-
-**Design Patterns Essenciais**
-
 > _"First make it work, then make it right, then make it fast."_  
 > — Kent Beck (Criador do TDD e Extreme Programming)
-
-- **Criacionais**
-  - Demonstração: Implementação de um cenário real do uso de Singleton.
-
-- **Estruturais**
-  - Demonstração: Implementação de um cenário real do uso de Adapter
-
-- **Comportamentais**
-  - Demonstração: Implementação de um cenário real do uso de Strategy
-
-**TDD e Testes Unitários**
 
 > _"Programs must be written for people to read, and only incidentally for machines to execute."_  
 > — Harold Abelson (Co-autor de "Structure and Interpretation of Computer Programs")
 
-- Fundamentos do TDD
-- Demonstração: Ciclo Red-Green-Refactor com JUnit
-
-**Discussão Arquitetural**
-
 > _"Premature optimization is the root of all evil."_  
 > — Donald E. Knuth (Autor de "The Art of Computer Programming")
 
-- Análise de casos reais
-- Trade-offs e decisões arquiteturais
-- Como Clean Code e padrões resolvem problemas do dia a dia
-
-> [!CAUTION]
-> **Trabalho Dia 1:**
-> Com base nos conceitos estudados sobre **Clean Code**, **Design Patterns** e **Qualidade de Software**, implemente **um ou mais padrões de projeto** na linguagem e IDE de sua preferência.
-> Sua entrega deve incluir **pelo menos um teste unitário**, validando o comportamento da solução implementada.
->
-> 📅 **Prazo de entrega:** até **25/05**
-> 📥 **Envio pelo Formulário:** [https://forms.gle/jwCC5WB4WXVZWrwv9](https://forms.gle/jwCC5WB4WXVZWrwv9)
-
----
-
-### Dia 2 - 24/05/2025 · Implementação Colaborativa (projeto `day2-clean-architecture`)
-
-**Recapitulação e Setup**
-- Revisão dos conceitos do Dia 1
-- Esclarecimento de dúvidas
-- Preparação do ambiente para programação colaborativa
-
-**Desenvolvimento de API RESTful em Spring Boot**
-
-> _"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."_  
-> — Martin Fowler (Autor de "Refactoring" e líder em práticas ágeis)
-
-**Sessão de Programação Colaborativa:**
-
-1. **Arquitetura da Aplicação**
-   - Aplicação dos princípios SOLID
-   - Estruturação de camadas (Controller, Service, Repository)
-   - Injeção de dependência
-
-2. **Implementação de Funcionalidades**
-   - Endpoints RESTful
-   - Tratamento de exceções
-   - Validações automáticas
-
-3. **Aplicação de Design Patterns**
-   - Repository Pattern para persistência
-   - Builder Pattern para DTOs
-   - Strategy Pattern para regras de negócio
-
-4. **Testes Automatizados**
-   - Testes unitários com JUnit
-   - Testes de integração
-   - Cobertura de código
-
-**Boas Práticas e Armadilhas Comuns**
-
 > _"Every time you write a comment, you have failed to express yourself in code."_  
 > — Robert C. Martin (Autor de "Clean Code" e "Clean Architecture")
-
-- Facilidades do Spring Boot vs. Clean Architecture
-- Identificação de bad practices
-- Uso consciente de frameworks
-
-> [!CAUTION]
-> **Trabalho Final: TODO**
-
----
 
 ## Referências
 
