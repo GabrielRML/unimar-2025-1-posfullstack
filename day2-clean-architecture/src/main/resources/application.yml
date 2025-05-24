@@ -1,0 +1,11 @@
+llm:
+  provider: ${LLM_PROVIDER:anthropic}
+
+openai:
+  base-url: https://api.openai.com/v1
+  api-key: ${OPENAI_API_KEY}
+
+anthropic:
+  base-url: https://api.anthropic.com/v1
+  api-key: ${ANTHROPIC_API_KEY}
+  version: 2023-06-01
