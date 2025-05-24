@@ -31,7 +31,7 @@ Doutor em Engenharia de Software pelo ICMC-USP, Venilton atua há mais de 15 ano
 > [!IMPORTANT]
 > **Trabalho Final:** Com base na API desenvolvida, implemente um projeto completo na linguagem e IDE de sua preferência. Sua entrega deve seguir os principais conceitos abordados nesta disciplina: Clean Code, Design Patterns, Qualidade de Software, Clean Architecture, APIs e LLMs. O domínio e escopo são livres, seja criativo(a)! Alternativamente, vocês também podem dar um "fork" neste projeto e implementar evoluções como a inclusão de novos Casos de Uso ou a criaçao de testes unitários e de integração.
 >
-> **Formulário de Submissão (até 07/06):** [https://forms.gle/i5TEAw7r9Qhem4gp6](https://forms.gle/i5TEAw7r9Qhem4gp6)
+> **Formulário de Submissão (até 07/06):** [https://forms.gle/HaTZQjNVd1Dhx5QeA](https://forms.gle/HaTZQjNVd1Dhx5QeA)
 
 ## Como Usar Este Repositório
 
