@@ -2,13 +2,13 @@ package br.unimar.aitutor.domain.usecase;
 
 import br.unimar.aitutor.domain.entity.Question;
 import br.unimar.aitutor.domain.gateway.LLMGateway;
+import br.unimar.aitutor.infra.exception.DomainException;
 
 public record AnswerQuestionUseCase(LLMGateway llmGateway) {
 
-    public Output execute(Input input) {
+    public Output execute(Input input) throws DomainException {
         var question = new Question();
         question.setContent(input.question());
-        question.setStudentName(input.studentName());
         question.validate();
 
         String userQuestion = question.getContent();
@@ -27,7 +27,7 @@ public record AnswerQuestionUseCase(LLMGateway llmGateway) {
                 """;
     }
 
-    public record Input(String question, String studentName) {
+    public record Input(String question) {
     }
 
     public record Output(String answer) {

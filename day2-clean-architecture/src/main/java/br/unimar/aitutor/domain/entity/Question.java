@@ -7,7 +7,6 @@ import java.time.LocalDateTime;
 public class Question {
 
     private String content;
-    private String studentName;
     private final LocalDateTime timestamp = LocalDateTime.now();
 
     public void validate() {
@@ -23,14 +22,6 @@ public class Question {
 
     public void setContent(String content) {
         this.content = content;
-    }
-
-    public String getStudentName() {
-        return studentName;
-    }
-
-    public void setStudentName(String studentName) {
-        this.studentName = studentName;
     }
 
     public LocalDateTime getTimestamp() {
