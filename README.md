@@ -8,7 +8,7 @@ Doutor em Engenharia de Software pelo ICMC-USP, Venilton atua há mais de 15 ano
 
 ## Estrutura da Disciplina
 
-### [📅 Dia 1 - Clean Code, Design Patterns e TDD](wiki/dia-1.md)
+### [📅 Dia 1 - Clean Code, Design Patterns e TDD](https://github.com/falvojr-classes/unimar-2025-1-posfullstack/wiki/Dia-1:-10%E2%80%9005%E2%80%902025)
 
 * **Clean Code**: Princípios fundamentais com exemplos práticos.
 * **Design Patterns**: Classificados em Criacionais, Estruturais e Comportamentais. Neste dia, aplicamos Singleton, Adapter e Strategy.
@@ -21,7 +21,7 @@ Doutor em Engenharia de Software pelo ICMC-USP, Venilton atua há mais de 15 ano
 >
 > **Formulário de Submissão (até 25/05):** [https://forms.gle/jwCC5WB4WXVZWrwv9](https://forms.gle/jwCC5WB4WXVZWrwv9)
 
-### [📅 Dia 2 - Clean Architecture, APIs e LLMs](wiki/dia-2.md)
+### [📅 Dia 2 - Clean Architecture, APIs e LLMs](https://github.com/falvojr-classes/unimar-2025-1-posfullstack/wiki/Dia-2:-24%E2%80%9005%E2%80%902025)
 
 * **Clean Architecture**: Aplicação prática com simplicidade e produtividade.
 * **API RESTful**: Desenvolvimento de um Tutor IA com Spring Boot.
