@@ -15,7 +15,7 @@ Doutor em Engenharia de Software pelo ICMC-USP, Venilton atua há mais de 15 ano
 * **TDD**: Ciclo *Red-Green-Refactor* com JUnit.
 * **Projeto Prático (pasta `day1-design-patterns`)**: Exercício prático do ciclo *Red-Green-Refactor* com TDD na implementação de nossa `Calculator`, além de exemplos reais dos padrões Singleton, Adapter e Strategy.
 
-> \[!IMPORTANT]
+> [!IMPORTANT]
 > **Trabalho Dia 1:** Com base nos conceitos estudados sobre Clean Code, Design Patterns e Qualidade de Software, implemente um ou mais padrões de projeto na linguagem e IDE de sua preferência.
 > Sua entrega deve incluir pelo menos um teste unitário que valide o comportamento da solução implementada.
 >
@@ -28,10 +28,10 @@ Doutor em Engenharia de Software pelo ICMC-USP, Venilton atua há mais de 15 ano
 * **Integração**: Alternância dinâmica entre OpenAI e Anthropic.
 * **Projeto Prático (pasta `day2-clean-architecture`)**: API REST para criação de um Tutor IA, focada nos conceitos abordados nesta disciplina.
 
-> \[!IMPORTANT]
-> **Trabalho Final:** Com base na API desenvolvida, implemente um projeto completo na linguagem e IDE de sua preferência. Sua entrega deve seguir os principais conceitos abordados nesta disciplina: Clean Code, Design Patterns, Qualidade de Software, Clean Architecture, APIs e LLMs. O domínio e escopo são livres, seja criativo(a)!
+> [!IMPORTANT]
+> **Trabalho Final:** Com base na API desenvolvida, implemente um projeto completo na linguagem e IDE de sua preferência. Sua entrega deve seguir os principais conceitos abordados nesta disciplina: Clean Code, Design Patterns, Qualidade de Software, Clean Architecture, APIs e LLMs. O domínio e escopo são livres, seja criativo(a)! Alternativamente, vocês também podem dar um "fork" neste projeto e implementar evoluções como a inclusão de novos Casos de Uso ou a criaçao de testes unitários e de integração.
 >
-> **Formulário de Submissão (até 07/06):** TODO
+> **Formulário de Submissão (até 07/06):** [https://forms.gle/i5TEAw7r9Qhem4gp6](https://forms.gle/i5TEAw7r9Qhem4gp6)
 
 ## Como Usar Este Repositório
 
