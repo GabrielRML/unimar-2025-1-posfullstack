@@ -14,3 +14,10 @@ anthropic:
   base-url: https://api.anthropic.com/v1
   api-key: ${ANTHROPIC_API_KEY}
   version: 2023-06-01
+
+openrouter:
+  base-url: https://openrouter.ai/api/v1
+  api-key: ${OPENROUTER_API_KEY}
+  reference-name: unimar-aitutor
+  default-model: ${OPENROUTER_MODEL:openai/gpt-4-turbo}
+  temperature: ${OPENROUTER_TEMPERATURE:0.7}

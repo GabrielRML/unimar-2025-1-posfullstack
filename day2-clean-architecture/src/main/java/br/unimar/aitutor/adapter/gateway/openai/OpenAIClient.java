@@ -38,8 +38,11 @@ public interface OpenAIClient {
 
         @Bean
         public RequestInterceptor bearerTokenRequestInterceptor() {
-            // RequestInterceptor to put the "Authorization" header on all mapped endpoints.
-            return template -> template.header(HttpHeaders.AUTHORIZATION, "Bearer %s".formatted(apiKey));
+            return template -> {
+                if (!template.headers().containsKey(HttpHeaders.AUTHORIZATION)) {
+                    template.header(HttpHeaders.AUTHORIZATION, "Bearer %s".formatted(apiKey));
+                }
+            };
         }
 
         @Bean
